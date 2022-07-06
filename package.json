@@ -26,13 +26,13 @@
     }
   },
   "dependencies": {
-    "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
     "node-fetch": "^3.2.3",
     "typescript": "^4.7.4",
     "vite": "^2.9.5",
+    "vue": "^3.2.25",
     "vue-tsc": "^0.34.17"
   },
   "repository": {
