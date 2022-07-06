@@ -33,5 +33,14 @@
     "typescript": "^4.7.4",
     "vite": "^2.9.5",
     "vue-tsc": "^0.34.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsutoringo/vue-material-symbols.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsutoringo/vue-material-symbols/issues"
+  },
+  "homepage": "https://github.com/tsutoringo/vue-material-symbols#readme",
+  "keywords": ["vue3", "vue", "icon", "font"]
 }
