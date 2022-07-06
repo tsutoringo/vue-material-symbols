@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: 'src/components/index.ts',
       name: 'vue-material-syombols',
-      fileName: (format) => `vue-material-syombols.${format}.js`,
+      fileName: (format) => `vue-material-symbols.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
