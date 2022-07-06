@@ -2,10 +2,10 @@ import { Icon, IconType, IconWeight, IconGrade, IconSize } from '../Icon';
 declare const _default: import("vue").DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<{
     icon: Icon;
     type?: IconType | undefined;
-    fill: boolean;
-    weight: IconWeight;
-    grade: IconGrade;
-    size: IconSize;
+    fill?: boolean | undefined;
+    weight?: IconWeight | undefined;
+    grade?: IconGrade | undefined;
+    size?: IconSize | undefined;
 }>, {
     type: string;
     fill: boolean;
@@ -15,10 +15,10 @@ declare const _default: import("vue").DefineComponent<__VLS_WithDefaults<__VLS_T
 }>, {}, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<{
     icon: Icon;
     type?: IconType | undefined;
-    fill: boolean;
-    weight: IconWeight;
-    grade: IconGrade;
-    size: IconSize;
+    fill?: boolean | undefined;
+    weight?: IconWeight | undefined;
+    grade?: IconGrade | undefined;
+    size?: IconSize | undefined;
 }>, {
     type: string;
     fill: boolean;
@@ -27,9 +27,9 @@ declare const _default: import("vue").DefineComponent<__VLS_WithDefaults<__VLS_T
     size: number;
 }>>>, {
     grade: IconGrade;
+    weight: IconWeight;
     type: IconType;
     fill: boolean;
-    weight: IconWeight;
     size: IconSize;
 }>;
 export default _default;
