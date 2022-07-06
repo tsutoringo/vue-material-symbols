@@ -7,7 +7,7 @@ vue-material-symbols is [Google Materia Symbols](https://fonts.google.com/icons?
 ```html
 <html>
   <head>
-    <!--Insert Google Material Symbols in index.html-->
+    <!--Insert Google Material Symbols to index.html-->
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
 </html
