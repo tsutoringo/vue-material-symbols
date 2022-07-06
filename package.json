@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "prepublishOnly": "npm run build",
     "preview": "vite preview",
     "generate-types": "node scripts/fetchFonts.js"
   },
