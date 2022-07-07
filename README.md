@@ -24,7 +24,7 @@ import { GSymbol } from 'vue-material-symbols';
   <GSymbol
     icon="light"
     type="outlined"
-    fill="false"
+    fill
     :weight="400"
     :grade="0"
     :size="48"
