@@ -47,5 +47,6 @@
     "vue",
     "icon",
     "font"
-  ]
+  ],
+  "license": "MIT"
 }

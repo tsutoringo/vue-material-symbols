@@ -31,3 +31,6 @@ import { GSymbol } from 'vue-material-symbols';
   />
 </template>
 ```
+
+## License
+Google Material Symbols created by Google
