@@ -25,9 +25,9 @@ import { GSymbol } from 'vue-material-symbols';
     icon="light"
     type="outlined"
     fill="false"
-    weight="400"
-    grade="0"
-    size="48"
+    :weight="400"
+    :grade="0"
+    :size="48"
   />
 </template>
 ```
