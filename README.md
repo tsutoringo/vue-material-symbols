@@ -22,6 +22,9 @@ import { GSymbol } from 'vue-material-symbols';
 </script>
 <template>
   <GSymbol
+    icon="cake"
+  />
+  <GSymbol
     icon="light"
     type="outlined"
     fill
