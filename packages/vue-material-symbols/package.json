@@ -16,13 +16,13 @@
   ],
   "main": "dist/vue-material-symbols.umd.js",
   "module": "dist/vue-material-symbols.es.js",
-  "types": "types/components/index.d.ts",
-  "source": "src/components/index.ts",
+  "types": "types/index.d.ts",
+  "source": "src/index.ts",
   "exports": {
     ".": {
       "import": "./dist/vue-material-symbols.es.js",
       "require": "./dist/vue-material-symbols.umd.js",
-      "types": "./types/components/index.d.ts"
+      "types": "./types/index.d.ts"
     }
   },
   "dependencies": {},

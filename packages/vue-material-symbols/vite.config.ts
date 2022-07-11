@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   build: {
     lib: {
-      entry: 'src/components/index.ts',
+      entry: 'src/index.ts',
       name: 'vue-material-syombols',
       fileName: (format) => `vue-material-symbols.${format}.js`,
     },
