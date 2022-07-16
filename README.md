@@ -1,6 +1,8 @@
 # Vue material symbols
 
-vue-material-symbols is [Google Materia Symbols](https://fonts.google.com/icons?icon.set=Material+Symbols) for vue 3
+Vue component for [Google Materia Symbols](https://fonts.google.com/icons?icon.set=Material+Symbols)
+
+![VueMaterialSymbols](https://user-images.githubusercontent.com/33830878/179359894-a79428ff-e4db-4d76-998f-85f6a9f282e2.gif)
 
 ## setup
 
