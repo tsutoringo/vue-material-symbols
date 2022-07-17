@@ -1,4 +1,5 @@
 # Vue material symbols
+[![npm version](https://badge.fury.io/js/vue-material-symbols.svg)](https://badge.fury.io/js/vue-material-symbols)
 
 Vue component for [Google Materia Symbols](https://fonts.google.com/icons?icon.set=Material+Symbols)
 
