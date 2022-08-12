@@ -8,7 +8,8 @@
     "build": "vue-tsc && vite build",
     "prepublishOnly": "npm run build",
     "preview": "vite preview",
-    "generate-types": "node scripts/fetchFonts.js"
+    "generate-types": "node scripts/fetchFonts.js",
+    "test": "vitest"
   },
   "files": [
     "dist",
@@ -25,12 +26,14 @@
       "types": "./types/index.d.ts"
     }
   },
-  "dependencies": {},
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/test-utils": "2.0.0-rc.18",
+    "happy-dom": "^6.0.4",
     "node-fetch": "^3.2.3",
     "typescript": "^4.7.4",
     "vite": "^2.9.5",
+    "vitest": "^0.21.1",
     "vue": "^3.2.25",
     "vue-tsc": "^0.34.17"
   },
