@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm build",
     "preview": "vite preview",
     "generate-types": "node scripts/fetchFonts.js",
     "test": "vitest"
@@ -35,7 +35,7 @@
     "vite": "^2.9.5",
     "vitest": "^0.21.1",
     "vue": "^3.2.25",
-    "vue-tsc": "^0.34.17"
+    "vue-tsc": "^0.40.1"
   },
   "repository": {
     "type": "git",
