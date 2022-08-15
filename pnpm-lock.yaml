@@ -15,7 +15,7 @@ importers:
       vite: ^2.9.5
       vitest: ^0.21.1
       vue: ^3.2.25
-      vue-tsc: ^0.34.17
+      vue-tsc: ^0.40.1
     devDependencies:
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.37
       '@vue/test-utils': 2.0.0-rc.18_vue@3.2.37
@@ -25,7 +25,7 @@ importers:
       vite: 2.9.14
       vitest: 0.21.1_happy-dom@6.0.4
       vue: 3.2.37
-      vue-tsc: 0.34.17_typescript@4.7.4
+      vue-tsc: 0.40.1_typescript@4.7.4
 
   packages/website:
     specifiers:
@@ -115,8 +115,24 @@ packages:
       '@volar/source-map': 0.34.17
     dev: true
 
+  /@volar/code-gen/0.40.1:
+    resolution: {integrity: sha512-mN1jn08wRKLoUj+KThltyWfsiEGt6Um1yT6S7bkruwV76yiLlzIR4WZgWng254byGMozJ00qgkZmBhraD5b48A==}
+    dependencies:
+      '@volar/source-map': 0.40.1
+    dev: true
+
   /@volar/source-map/0.34.17:
     resolution: {integrity: sha512-3yn1IMXJGGWB/G817/VFlFMi8oh5pmE7VzUqvgMZMrppaZpKj6/juvJIEiXNxRsgWc0RxIO8OSp4htdPUg1Raw==}
+    dev: true
+
+  /@volar/source-map/0.40.1:
+    resolution: {integrity: sha512-ORYg5W+R4iT2k/k2U4ASkKvDxabIzKtP+lXZ1CcqFIbTF81GOooAv5tJZImf8ifhUV9p8bgGaitFj/VnNzkdYg==}
+    dev: true
+
+  /@volar/typescript-faster/0.40.1:
+    resolution: {integrity: sha512-UiX8OzVRJtpudGfTY2KgB5m78DIA8oVbwI4QN5i4Ot8oURQPOviH7MahikHeeXidbh3iOy/u4vceMb+mfdizpQ==}
+    dependencies:
+      semver: 7.3.7
     dev: true
 
   /@volar/vue-code-gen/0.34.17:
@@ -129,6 +145,18 @@ packages:
       '@vue/shared': 3.2.37
     dev: true
 
+  /@volar/vue-language-core/0.40.1:
+    resolution: {integrity: sha512-RBU2nQkj+asKZ/ht3sU3hTau+dGuTjJrQS3nNSw4+vnwUJnN/WogO/MmgKdrvVf3pUdLiucIog1E/Us1C8Y5wg==}
+    dependencies:
+      '@volar/code-gen': 0.40.1
+      '@volar/source-map': 0.40.1
+      '@vue/compiler-core': 3.2.37
+      '@vue/compiler-dom': 3.2.37
+      '@vue/compiler-sfc': 3.2.37
+      '@vue/reactivity': 3.2.37
+      '@vue/shared': 3.2.37
+    dev: true
+
   /@volar/vue-typescript/0.34.17:
     resolution: {integrity: sha512-U0YSVIBPRWVPmgJHNa4nrfq88+oS+tmyZNxmnfajIw9A/GOGZQiKXHC0k09SVvbYXlsjgJ6NIjhm9NuAhGRQjg==}
     dependencies:
@@ -137,6 +165,14 @@ packages:
       '@volar/vue-code-gen': 0.34.17
       '@vue/compiler-sfc': 3.2.37
       '@vue/reactivity': 3.2.37
+    dev: true
+
+  /@volar/vue-typescript/0.40.1:
+    resolution: {integrity: sha512-58nW/Xwy7VBkeIPmbyEmi/j1Ta2HxGl/5aFiEEpWxoas7vI1AM+txz8+MhWho4ZMw0w0eCqPtGgugD2rr+/v7w==}
+    dependencies:
+      '@volar/code-gen': 0.40.1
+      '@volar/typescript-faster': 0.40.1
+      '@volar/vue-language-core': 0.40.1
     dev: true
 
   /@vue/compiler-core/3.2.37:
@@ -664,6 +700,13 @@ packages:
       get-func-name: 2.0.0
     dev: true
 
+  /lru-cache/6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: 4.0.0
+    dev: true
+
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
@@ -795,6 +838,14 @@ packages:
 
   /safer-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    dev: true
+
+  /semver/7.3.7:
+    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
     dev: true
 
   /side-channel/1.0.4:
@@ -972,6 +1023,17 @@ packages:
       typescript: 4.7.4
     dev: true
 
+  /vue-tsc/0.40.1_typescript@4.7.4:
+    resolution: {integrity: sha512-Z+3rlp/6TrtKvLuaFYwBn03zrdinMR6lBb3mWBJtDA+KwlRu+I4eMoqC1qT9D7i/29u0Bw58dH7ErjMpNLN9bQ==}
+    hasBin: true
+    peerDependencies:
+      typescript: '*'
+    dependencies:
+      '@volar/vue-language-core': 0.40.1
+      '@volar/vue-typescript': 0.40.1
+      typescript: 4.7.4
+    dev: true
+
   /vue/3.2.37:
     resolution: {integrity: sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ==}
     dependencies:
@@ -1012,4 +1074,8 @@ packages:
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
+    dev: true
+
+  /yallist/4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
