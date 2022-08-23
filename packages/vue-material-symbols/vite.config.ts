@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.ts',
       name: 'vue-material-syombols',
-      fileName: (format) => `vue-material-symbols.${format}.js`,
+      fileName: (format) => `vue-material-symbols.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
@@ -17,10 +17,10 @@ export default defineConfig({
         // Provide global variables to use in the UMD build
         // Add external deps here
         globals: {
-          vue: 'Vue',
-        },
-      },
-    },
+          vue: 'Vue'
+        }
+      }
+    }
   },
   plugins: [vue()],
   test: {
